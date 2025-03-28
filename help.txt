@@ -1,0 +1,1 @@
+SELECT user.firstname, user.lastname,user.email,subscription.name FROM user JOIN membership ON user.id = id_user join subscription on membership.id_subscription = subscription.id ORDER BY membership.id DESC LIMIT 10;
